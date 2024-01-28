@@ -15,7 +15,7 @@ from graphs.graph_temperature import graph_temperature
 from graphs.graph_time import graph_time
 
 
-pg.setConfigOption('background', (33, 33, 33))
+pg.setConfigOption('background', (33, 33, 60))
 pg.setConfigOption('foreground', (197, 198, 199))
 # Interface variables
 app = QtWidgets.QApplication(sys.argv)
