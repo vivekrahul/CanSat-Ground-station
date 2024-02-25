@@ -15,16 +15,16 @@ from graphs.graph_temperature import graph_temperature
 from graphs.graph_time import graph_time
 
 
-pg.setConfigOption('background', (33, 33, 60))
-pg.setConfigOption('foreground', (197, 198, 199))
+pg.setConfigOption('background', (246, 246, 246))
+pg.setConfigOption('foreground', (0, 0, 0))
 # Interface variables
 app = QtWidgets.QApplication(sys.argv)
 view = pg.GraphicsView()
 Layout = pg.GraphicsLayout()
 view.setCentralItem(Layout)
 view.show()
-view.setWindowTitle('Flight monitoring')
-view.resize(1200, 700)
+view.setWindowTitle('GAGAN - CANSAT')
+view.resize(1280, 720)
 
 # declare object for serial Communication
 ser = Communication()
@@ -32,10 +32,10 @@ ser = Communication()
 data_base = data_base()
 # Fonts for text items
 font = QtGui.QFont()
-font.setPixelSize(90)
+font.setPixelSize(200)
 
 # buttons style
-style = "background-color:rgb(29, 185, 84);color:rgb(0,0,0);font-size:14px;"
+style = "background-color:rgb(29, 185, 84);color:rgb(0,0,0);font-size:16 MApx;"
 
 
 # Declare graphs

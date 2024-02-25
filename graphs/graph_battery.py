@@ -7,7 +7,7 @@ class graph_battery(pg.PlotItem):
 
         self.hideAxis('bottom')
         self.hideAxis('left')
-        self.battery_text = pg.TextItem("test", anchor=(0.5, 0.5), color="w")
+        self.battery_text = pg.TextItem("test", anchor=(0.5, 0.5), color="black")
         if font != None:
             self.battery_text.setFont(font)
         self.addItem(self.battery_text)

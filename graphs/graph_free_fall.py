@@ -7,7 +7,7 @@ class graph_free_fall(pg.PlotItem):
 
         self.hideAxis('bottom')
         self.hideAxis('left')
-        self.text = pg.TextItem("test", anchor=(0.5, 0.5), color="w")
+        self.text = pg.TextItem("test", anchor=(0.5, 0.5), color="black")
         if font != None:
             self.text.setFont(font)
         self.addItem(self.text)
